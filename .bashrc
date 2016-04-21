@@ -112,5 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# include my personal bash script
-. ~/.gdc.sh
+# include Dax personal bash script
+if [ -f ~/.gdc.sh ]; then
+    . ~/.gdc.sh
+fi

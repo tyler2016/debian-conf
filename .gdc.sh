@@ -28,4 +28,5 @@ export MINICOM='-m -c on'
 export www=/var/www/html
 export TERM=screen-256color
 
-. /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
+# disable powerline
+# . /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
