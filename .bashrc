@@ -58,7 +58,7 @@ fi
 
 color_prompt=yes
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\]\[\033[01;34m\][\u@\h \W]\[\033[00m\] \e[0;31m\$\e[m '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\]\[\033[01;34m\][\u@\h \W]\[\033[00m\] \[\e[0;31m\]\$\[\e[m\] '
 else
     # below was default by GDax
     # PS1='${debian_chroot:+($debian_chroot)}[\u@\h: \W\$] '
