@@ -56,10 +56,13 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+color_prompt=yes
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\]:\[\033[01;34m\][\u@\h: \W]\[\033[00m\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\]\[\033[01;34m\][\u@\h: \W]\[\033[00m\]\$ '
 else
-    PS1='${debian_chroot:+($debian_chroot)}[\u@\h: \W\$] '
+    # below was default by GDax
+    # PS1='${debian_chroot:+($debian_chroot)}[\u@\h: \W\$] '
+    PS1='${debian_chroot:+($debian_chroot)}<\e[0;32m\u@\h: \W\e[m>\$ '
 fi
 unset color_prompt force_color_prompt
 
