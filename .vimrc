@@ -13,12 +13,12 @@ set ruler
 set showcmd
 set relativenumber
 
-set cursorline
+"set cursorline
 "light grey
-hi cursorline cterm=none ctermbg=254 ctermfg=none guibg=none guifg=none
+"hi cursorline cterm=none ctermbg=254 ctermfg=none guibg=none guifg=none
 
 "powerline-status
 "need install: vim-python
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
-set laststatus=2
-set t_Co=256
+"set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+"set laststatus=2
+"set t_Co=256
