@@ -2,21 +2,21 @@ URxvt.font:     xft:mononoki:size=12:antialias=true
 URxvt.boldFont: xft:mononoki:bold:size=12:antialias=true
 
 URxvt*color0:  #000000 // black
-URxvt*color1:  #B40000 // red
-URxvt*color2:  #00AA00 // green
-URxvt*color3:  #AAAA00 // yellow
-URxvt*color4:  #5555AA // blue
-URxvt*color5:  #AA00AA // magenta
-URxvt*color6:  #00AAAA // cyan
-URxvt*color7:  #AAAAAA // white
-URxvt*color8:  #555555 // black (now and below: bright)
-URxvt*color9:  #FF0000 // red
-URxvt*color10: #00FF00 // green
-URxvt*color11: #FFFF00 // yellow
-URxvt*color12: #6464FF // blue
-URxvt*color13: #FF00FF // magenta
-URxvt*color14: #00FFFF // cyan
-URxvt*color15: #FFFFFF // white
+URxvt*color1:  #C75646 // red
+URxvt*color2:  #8EB33B // green
+URxvt*color3:  #D0B03C // yellow
+URxvt*color4:  #72B3CC // blue
+URxvt*color5:  #C8A0D1 // magenta
+URxvt*color6:  #218693 // cyan
+URxvt*color7:  #B0B0B0 // white
+URxvt*color8:  #5D5D5D // black (now and below: bright)
+URxvt*color9:  #E09690 // red
+URxvt*color10: #CDEE69 // green
+URxvt*color11: #FFE377 // yellow
+URxvt*color12: #9CD9F0 // blue
+URxvt*color13: #FBB1F9 // magenta
+URxvt*color14: #77DFD8 // cyan
+URxvt*color15: #F7F7F7 // white
 
 URxvt*loginShell:true
 URxvt*transparent:true
