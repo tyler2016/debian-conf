@@ -1,6 +1,6 @@
-URxvt.font:         xft:inconsolata:size=14
-URxvt.boldFont:     xft:inconsolata:size=14
-URxvt.letterSpace:  -1
+URxvt.font:         xft:inconsolata:size=16
+URxvt.boldFont:     xft:inconsolata:size=16
+URxvt.letterSpace:  -2
 
 URxvt*color0:  #000000 // black
 URxvt*color1:  #C75646 // red
