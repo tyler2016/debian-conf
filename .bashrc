@@ -121,3 +121,8 @@ fi
 if [ -f ~/.gdc.sh ]; then
     . ~/.gdc.sh
 fi
+
+# run .Xdefaults
+if [ -f ~/.Xdefaults ]; then
+    xrdb -merge ~/.Xdefaults
+fi
