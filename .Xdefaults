@@ -1,5 +1,5 @@
-URxvt.font:         xft:mononoki:size=12
-URxvt.boldFont:     xft:mononoki:size=12
+URxvt.font:         xft:mononoki:size=14
+URxvt.boldFont:     xft:mononoki:size=14
 URxvt.letterSpace:  -2
 URxvt.cursorBlink:  1
 URxvt.cursorUnderline:  1
