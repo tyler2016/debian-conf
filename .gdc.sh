@@ -8,10 +8,10 @@
 # code : . $HOME/.gdc.sh
 
 # alias cmd
-alias l='\ls --color=auto'
-alias ls='ls -F --color=auto'
-alias ll='ls -lh --color=auto'
-alias la='ls -a --color=auto'
+alias l='\ls'
+alias ls='ls -F'
+alias ll='ls -l'
+alias la='ls -a'
 alias grep='grep --color=auto'
 alias info='info --vi-keys'
 alias chownwww='sudo chown -Rc www-data.www-data'
