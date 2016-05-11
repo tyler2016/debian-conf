@@ -1,5 +1,5 @@
-URxvt.font:         xft:mononoki:size=16
-URxvt.boldFont:     xft:mononoki:size=16
+URxvt.font:         xft:mononoki:size=14
+URxvt.boldFont:     xft:mononoki:size=14
 URxvt.letterSpace:  -2
 URxvt.cursorBlink:  1
 URxvt.cursorUnderline:  0
@@ -24,7 +24,8 @@ URxvt*color15: #F7F7F7 // white
 URxvt*loginShell:true
 URxvt*transparent:true
 URxvt*shading:5
-URxvt*background:Black
+!URxvt*background:Black
+URxvt*background:#353535
 URxvt*foreground:White
 URxvt*scrollBar:true
 URxvt*scrollBar_right:true
