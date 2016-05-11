@@ -13,9 +13,9 @@ set ruler
 set showcmd
 set relativenumber
 
-"set cursorline
+set cursorline
 "light grey
-"hi cursorline cterm=none ctermbg=254 ctermfg=none guibg=none guifg=none
+hi cursorline cterm=none ctermbg=241 ctermfg=none guibg=none guifg=none
 
 "powerline-status
 "need install: vim-python
