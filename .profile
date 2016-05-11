@@ -25,8 +25,3 @@ fi
 if [ -f "$HOME/.Xdefaults" ]; then
     xrdb -merge $HOME/.Xdefaults
 fi
-
-# run urxvt daemon
-if [ -x `which urxvtd` ]; then
-    urxvtd -q -f
-fi
