@@ -121,8 +121,3 @@ fi
 if [ -f ~/.gdc.sh ]; then
     . ~/.gdc.sh
 fi
-
-# run .Xdefaults from May 7th, 2016
-if [ -f ~/.Xdefaults ]; then
-    xrdb -merge ~/.Xdefaults
-fi
