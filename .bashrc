@@ -58,11 +58,11 @@ fi
 
 color_prompt=yes
 if [ "$color_prompt" = yes ]; then
-    PS1='\[\033[00;32m\][\u\[\033[00;33m\]@\[\033[00;32m\]\h\[\033[01;30m\]:\[\033[01;36m\]\w\[\033[00;32m\]]\[\033[00;33m\]\n\[\033[01;31m\]$ \[\033[00m\]'
+    PS1='\[\033[00;32m\][\u\[\033[00;33m\]@\[\033[00;32m\]\h\[\033[01;30m\]:\[\033[01;36m\] \w\[\033[00;32m\]]\[\033[00;33m\]\n\[\033[01;31m\]$ \[\033[00m\]'
 else
     # below was set by GDC
     # PS1='${debian_chroot:+($debian_chroot)}[\u@\h: \W\$] '
-    PS1='\[\033[00;32m\][\u\[\033[00;33m\]@\[\033[00;32m\]\h\[\033[01;30m\]:\[\033[01;36m\]\w\[\033[00;32m\]]\[\033[00;33m\]\n\[\033[01;31m\]$ \[\033[00m\]'
+    PS1='\[\033[00;32m\][\u\[\033[00;33m\]@\[\033[00;32m\]\h\[\033[01;30m\]:\[\033[01;36m\] \w\[\033[00;32m\]]\[\033[00;33m\]\n\[\033[01;31m\]$ \[\033[00m\]'
 fi
 unset color_prompt force_color_prompt
 
@@ -115,7 +115,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# include Dax personal bash script
+# include GDC's personal bash script
 if [ -f ~/.gdc.sh ]; then
     . ~/.gdc.sh
 fi
