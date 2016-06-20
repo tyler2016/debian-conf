@@ -10,6 +10,6 @@ if [ ! -f ${basefilename}".tex" ]; then
     echo "Err: 文件不存在 "${basefilename}".tex"
     exit 102
 fi
-latex ${basefilename}".tex"
+xelatex ${basefilename}".tex"
 dvips ${basefilename}".dvi"
 ps2pdf ${basefilename}".ps"
