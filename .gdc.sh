@@ -16,6 +16,7 @@ alias grep='grep --color=auto'
 alias info='info --vi-keys'
 alias chownwww='sudo chown -Rc www-data.www-data'
 alias sshrhcloud='ssh -D 1081 56c9b42a2d5271812d000178@php-dalinux.rhcloud.com'
+alias update="sudo aptitude update && sudo aptitude -y dist-upgrade && sudo aptitude clean && echo 'update ok'"
 # alias googleproxy='google-chrome --proxy-server=socks5://127.0.0.1:1080'
 # alias hex2bin='objcopy -I ihex -O binary'
 
