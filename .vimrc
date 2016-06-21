@@ -12,6 +12,7 @@ set background=light
 set ruler
 set showcmd
 set relativenumber
+set fileformat=unix
 
 "set cursorline
 "light grey
