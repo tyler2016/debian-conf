@@ -5,7 +5,7 @@ syntax on
 set ai
 "status bar
 set laststatus=2
-set hlsearch
+"set hlsearch
 set ts=4
 set expandtab
 set background=light
@@ -14,9 +14,9 @@ set showcmd
 set relativenumber
 set fileformat=unix
 
-"set cursorline
+set cursorline
 "light grey
-"hi cursorline cterm=none ctermbg=10 ctermfg=none guibg=none guifg=none
+"hi cursorline cterm=none ctermbg=254 ctermfg=none guibg=none guifg=none
 
 "powerline-status
 "need install: vim-python
